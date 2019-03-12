@@ -1,0 +1,14 @@
+<div style="text-align:center">
+  <mat-list>
+    <mat-list-item *ngFor="let row of rows">
+        <td *ngFor="let item of row" on-mouseover='onHover(item)' [ngClass]="item.type == 0 ? 'template': 'connector'">
+              {{getDisplayName(item)}}
+              <span class = "spacer"></span>
+        </td>
+        <mat-divider></mat-divider>
+    </mat-list-item>
+  </mat-list>
+  <div id="msg" class="url">
+      {{message}}
+ </div>
+</div>

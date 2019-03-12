@@ -1,0 +1,24 @@
+.template {
+    color: rgb(4, 136, 202);
+    font-size: medium;
+}
+
+.template:hover{
+    text-decoration:underline;
+}
+
+.connector {
+    color: rgb(154, 144, 144);
+    font-size: medium;
+}
+
+.url {
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.spacer {
+    display:inline-block;
+    width: 8px;
+}

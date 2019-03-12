@@ -1,0 +1,1 @@
+export const INITIAL_MESSAGE: string = 'Mouse over a user or task to get their path';
